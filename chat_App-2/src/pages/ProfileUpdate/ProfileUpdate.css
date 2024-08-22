@@ -56,3 +56,20 @@ textarea {
   font-size: 16px;
   cursor: pointer;
 }
+@media (max-width: 900px) {
+  .profile-container {
+    width: 100%;
+  }
+  .profile form {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .profile-pic {
+    display: none;
+  }
+  .profile form h3 {
+    font-size: 30px;
+  }
+}
